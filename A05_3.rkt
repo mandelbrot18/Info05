@@ -29,8 +29,8 @@
     (+ x y)))
 
 ; -----------------------
-
 ; a)
+
 ; implementiert f so, das
 ; (g x) nur einmal ausgewertet wird
 (check-expect (f* 2) 16))
@@ -40,12 +40,9 @@
 
 
 ; -----------------------
-
 ; b)
 
-
 ; -----------------------
-
 ; c)
 
 ; Implementiert f mit let
