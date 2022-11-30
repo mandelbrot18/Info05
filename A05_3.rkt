@@ -31,8 +31,12 @@
 ; -----------------------
 
 ; a)
-
-
+; implementiert f so, das
+; (g x) nur einmal ausgewertet wird
+(check-expect (f* 2) 16))
+(define f*
+ (lambda (lambda (x) g x)
+   (i x (h x))))
 
 
 ; -----------------------
